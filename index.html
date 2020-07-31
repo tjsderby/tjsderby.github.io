@@ -11,6 +11,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script type="text/javascript">
+			function resizeIframe(obj){
+			   obj.style.height = 0;
+			   obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+			}
+		</script>
 	</head>
 	<body class="is-preload">
 
@@ -67,7 +73,7 @@
 								
 								<h3>Machine Learning Dissertation</h3>
 								<p>Below is a video explanation of my dissertation project in which I created a recurrent neural network using Python/TensorFlow/Keras to predict the future locations of a mobile phone based on previous location data provided by Google:</p>
-								<p align="center"><iframe src="https://drive.google.com/file/d/1I_xTTNWm0ElpQ50u4rkad-6h6kE55ycq/preview" width="640" height="360"></iframe></p>
+								<div class="video-container"><iframe src="https://drive.google.com/file/d/1I_xTTNWm0ElpQ50u4rkad-6h6kE55ycq/preview" height="315" width="560" allowfullscreen="" frameborder="0"></iframe></div>
 								<p><a href="https://github.com/tjsderby/Location-Prediction">Source Code</a></p>
 								
 								<h3>Running Tracker Android App</h3>
@@ -79,7 +85,7 @@
 								
 								<h3>Unity Ball Game</h3>
 								<p>In my free time I enjoy making games, having used Unity mainly with some experience in Unreal Engine also. Below is a video showcase of a game I made in unity along with some clips of game mechanics made for my games development module at university.</p>
-								<p align="center"><iframe src="https://drive.google.com/file/d/1t4Yp0IElSTieO6UiHvZmxm-HeVwRmaax/preview" width="640" height="360"></iframe></p>
+								<div class="video-container"><iframe src="https://drive.google.com/file/d/1t4Yp0IElSTieO6UiHvZmxm-HeVwRmaax/preview" height="315" width="560" allowfullscreen="" frameborder="0"></iframe></div>
 								<p><a href="https://github.com/tjsderby/Ball-Game">Source Code</a></p>
 								<p>For any more details check out my <a href="#about">about section</a>.</p>
 							</article>
